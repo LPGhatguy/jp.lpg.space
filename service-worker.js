@@ -4,6 +4,8 @@ const CACHE_NAME = "jp.lpg.space-v1";
 const urlsToCache = [
   "/",
   "/hiragana/",
+  "/katakana/",
+  "/mtg/",
   "/style.css",
   "/index.js",
 ];

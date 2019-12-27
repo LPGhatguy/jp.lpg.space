@@ -39,6 +39,10 @@ section {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+ruby > rt {
+	font-size: 0.5em;
+}
+
 .primary-link {
 	color: #6262f7;
 	font-weight: bold;
@@ -82,4 +86,31 @@ section {
 
 .kana-unused {
 	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.kanji-definitions {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: 1fr;
+}
+
+.kanji-definitions dt,
+.kanji-definitions dd {
+	display: flex;
+	align-items: center;
+	padding: 0.25rem 1rem;
+}
+
+.kanji-definitions dt:nth-child(4n+1),
+.kanji-definitions dd:nth-child(4n+2) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.kanji-definitions dt {
+	font-weight: bold;
+}
+
+.kanji-definitions dd {
+	font-size: 1.5rem;
+	justify-content: flex-end;
 }
