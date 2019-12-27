@@ -1,1 +1,1 @@
-# [Japanese Reference](https://jp.lpg.space)
+# [Japanese Reference](http://jp.lpg.space)
