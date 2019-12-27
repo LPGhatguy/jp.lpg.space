@@ -44,6 +44,26 @@ section {
 	font-weight: bold;
 }
 
+.kana-label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.kana {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.kana-selected {
+	border: 3px solid #6262f7;
+}
+
 .kana-set {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
@@ -62,12 +82,4 @@ section {
 
 .kana-unused {
 	background-color: rgba(0, 0, 0, 0.2);
-}
-
-.kana-set > * {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	border: 1px solid rgba(0, 0, 0, 0.1);
 }
