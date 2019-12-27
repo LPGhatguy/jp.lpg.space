@@ -7,7 +7,7 @@
   "description": "Japanese Reference",
   "icons": [
     {
-      "src": "images/logo.png",
+      "src": "/images/logo.png",
       "sizes": "256x256",
       "type": "image/png"
     }
